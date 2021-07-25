@@ -11,7 +11,7 @@ records=[
     ]
   },
   {
-    name    = "@"
+    name    = ""
     type    = "MX"
     ttl     = 3600
     records = [
@@ -19,7 +19,7 @@ records=[
     ]
   },
   {
-    name    = "@"
+    name    = ""
     type    = "TXT"
     ttl     = 3600
     records = [
