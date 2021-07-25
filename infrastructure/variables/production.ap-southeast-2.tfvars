@@ -11,11 +11,27 @@ records=[
     ]
   },
   {
-    name    = ""
+    name    = "@"
+    type    = "MX"
+    ttl     = 3600
+    records = [
+      "0 expensely-me.mail.protection.outlook.com"
+    ]
+  },
+  {
+    name    = "@"
     type    = "TXT"
     ttl     = 3600
     records = [
-      "MS=ms44025435"
+      "v=spf1 include:spf.protection.outlook.com -all"
+    ]
+  },
+  {
+    name    = "autodiscover"
+    type    = "CNAME"
+    ttl     = 3600
+    records = [
+      "autodiscover.outlook.com"
     ]
   }
 ]
