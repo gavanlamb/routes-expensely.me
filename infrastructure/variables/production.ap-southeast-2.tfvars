@@ -3,11 +3,11 @@ region="ap-southeast-2"
 domain_name="expensely.me"
 records=[
   {
-    name    = "@"
+    name    = "_github-challenge-expensely"
     type    = "TXT"
     ttl     = 3600
     records = [
-      "MS=ms44025435"
+      "c0ce84a83b"
     ]
   }
 ]
