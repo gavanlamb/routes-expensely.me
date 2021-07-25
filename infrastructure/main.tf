@@ -3,7 +3,7 @@
   comment = "Zone for ${var.domain_name} ${var.environment}"
   tags = local.default_tags
 }
-module "expensely_com_au_records" {
+module "records" {
   source  = "terraform-aws-modules/route53/aws//modules/records"
   version = "~> 1.0"
   count = local.create_route53_records ? 1 : 0
