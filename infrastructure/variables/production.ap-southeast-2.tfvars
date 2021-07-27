@@ -33,5 +33,13 @@ records=[
     records = [
       "autodiscover.outlook.com"
     ]
+  },
+  {
+    name    = ""
+    type    = "A"
+    ttl     = 3600
+    records = [
+      "127.0.0.1"
+    ]
   }
 ]
