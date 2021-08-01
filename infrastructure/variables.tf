@@ -19,7 +19,8 @@ locals {
   
   default_tags = {
     Application = "Expensely"
-    Team = "Expensely"
-    ManagedBy = "Terraform" 
+    Team = "Expensely Core"
+    ManagedBy = "Terraform"
+    Environment = var.environment
   }
 }
