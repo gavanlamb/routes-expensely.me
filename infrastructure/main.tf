@@ -9,4 +9,6 @@ module "records" {
   count = local.create_route53_records ? 1 : 0
   zone_name = aws_route53_zone.zone.name
   records = var.records
+  depends_on = [
+    aws_route53_zone.zone]
 }
